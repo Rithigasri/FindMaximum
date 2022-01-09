@@ -10,30 +10,57 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
-i)	# To find the maximum of marks using the list method sort.
-```Python
+i) To find the maximum of marks using the list method sort.
+```
+Program to mark the maximum of marks using the list method sort
+Developed by: RITHIGA SRI.B
+RegisterNumber: 21500732
 
-
-
+def max_marks(marks):
+    marks.sort()
+    max=marks[-1]
+    return max
 ```
 
-ii)	# To find the maximum marks using the list method max().
-```Python
+ii)	To find the maximum marks using the list method max().
+```
+Program to find the maximum marks using the list method max().
+Developed by: RITHIGA SRI.B
+RegisterNumber: 21500732
 
-
-
+def max_marks(marks):
+    v=max(marks)
+    return v
 ```
 
-iii) # To find the maximum marks without using builtin functions.
-```Python
-
-
-
+iii) To find the maximum marks without using builtin functions.
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
+Program to the maximum marks without using builtin functions.
+Developed by: RITHIGA SRI.B
+RegisterNumber: 21500732
+
+def max_marks(list1):
+    max_value=0
+    for i in list1:
+        if i>max_value:
+            max_value=i
+    return max_value
+```
+## Sample Input:
+### Program 1:
+![input](./img/input1.png) 
+### Program 2:
+![input](./img/input2.png)
+### Program 3:
+![input](./img/input3.png)
 
 ## Output:
+### Program 1:
+![output](./img/output1.png) 
+### Program 2:
+![output](./img/output2.png)
+### Program 3:
+![output](./img/output3.png)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
